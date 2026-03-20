@@ -1,0 +1,11 @@
+{
+    "users": [
+      {
+        "firstName": "Nimish",
+        "lastName": "Khandelwal",
+        "username": "nimish01",
+        "password": "Password@123",
+        "book": "Git Pocket Guide"
+      }
+    ]
+  }

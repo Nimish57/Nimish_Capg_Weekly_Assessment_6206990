@@ -1,0 +1,32 @@
+{
+    "students": [
+      {
+        "firstName": "Nimish",
+        "lastName": "Khandelwal",
+        "email": "nimishkhandelwal284@gmail.com",
+        "gender": "Male",
+        "mobile":"7011728651",
+        "dob": "07 Jan 2005",
+        "subjects": "Computer Science",
+        "hobbies": ["Sports"],
+        "picture": "C:/Users/nimis/OneDrive/Desktop/Capg/assessment(14-03-2026)/image/profile.png",
+        "address": "Pratap Nagar",
+        "state": "Rajasthan",
+        "city": "Jaipur"
+      },
+      {
+        "firstName": "Chirag",
+        "lastName": "Khandelwal",
+        "email": "chiragkhandelwal@gmail.com",
+        "gender": "Male",
+        "mobile": "7011728651",
+        "dob": "05 Jan 2009",
+        "subjects": "Maths",
+        "hobbies": ["Reading"],
+        "picture": "C:/Users/nimis/OneDrive/Desktop/Capg/assessment(14-03-2026)/image/profile.png",
+        "address": "Jaipur, Rajasthan",
+        "state": "Rajasthan",
+        "city": "Jaipur"
+      }
+    ]
+  }
