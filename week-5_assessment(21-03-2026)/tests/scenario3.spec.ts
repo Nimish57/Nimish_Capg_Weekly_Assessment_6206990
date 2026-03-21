@@ -1,4 +1,4 @@
-/*------End-to-End-------*/
+/*------End-to-End = Register-> open slect product-> open product page -> write complete review and submit it------*/
 import { test, expect } from "@playwright/test";
 import home from "../project_object_model/sce3homepom.spec";
 import login from "../project_object_model/sce3loginpom.spec";

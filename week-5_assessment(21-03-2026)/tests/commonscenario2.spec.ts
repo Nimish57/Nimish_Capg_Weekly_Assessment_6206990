@@ -1,3 +1,4 @@
+/* add products into cart */
 import { test, expect } from "@playwright/test";
 import home from "../project_object_model/commonscenario2home.spec";
 import fs from "fs";

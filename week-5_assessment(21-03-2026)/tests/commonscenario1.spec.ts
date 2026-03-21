@@ -1,3 +1,4 @@
+/* register as a new user */
 import { test, expect } from "@playwright/test";
 import registers from "../project_object_model/commonscenario1register.spec";
 import fs from "fs";

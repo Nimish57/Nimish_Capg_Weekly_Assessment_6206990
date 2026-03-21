@@ -1,4 +1,4 @@
-/*------Integration-------*/
+/*------Integration = Register-> open contact page -> fill contact form -> upload file -> submit the contact us form-------*/
 import { test, expect } from "@playwright/test";
 import home from "../project_object_model/sce2homepom.spec";
 import login from "../project_object_model/sce2loginpom.spec";

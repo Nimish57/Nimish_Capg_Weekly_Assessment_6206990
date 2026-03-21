@@ -1,4 +1,4 @@
-/*------End-to-End-------*/
+/*------End-to-End=Register->add-items into cart->view cart -> complete checkout-------*/
 import { test, expect } from "@playwright/test";
 import home from "../project_object_model/sce1homepom.spec";
 import login from "../project_object_model/sce1loginpom.spec";
