@@ -1,0 +1,20 @@
+import { test } from "@playwright/test";
+import LoginPage from "../pom/test3LoginPage";
+import LabTestPage from "../pom/test3LabTestPage";
+import CheckoutPage from "../pom/test3CheckoutPage";
+import testData from "../data/data.json";
+test("Practo Lab Test Booking", async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    const labTestPage = new LabTestPage(page);
+    const checkoutPage = new CheckoutPage(page);
+    await loginPage.goto();
+    await loginPage.login(testData.email, testData.password);
+    await labTestPage.selectCity(testData.city);
+    await labTestPage.bookLabTest();
+    await checkoutPage.enterAge(testData.aged);
+    await checkoutPage.continueGenderSelection();
+    await checkoutPage.enterEmail(testData.userEmail);
+    await checkoutPage.selectLocation(testData.location);
+    await page.waitForLoadState("networkidle");
+    await page.screenshot({ path: "screenshots/test3.png", fullPage: true });
+});
